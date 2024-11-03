@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dodajtytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tytuł" />
+
+    <EditText
+        android:id="@+id/dodajopis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Opis" />
+
+    <EditText
+        android:id="@+id/dodajcena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena" />
+
+    <Button
+        android:id="@+id/dodajzapis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapisz" />
+</LinearLayout>
